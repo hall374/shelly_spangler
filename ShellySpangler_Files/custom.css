@@ -1,0 +1,17 @@
+.fake_link {
+	color: #0645AD;
+}
+
+.fake_link:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#main_logo{
+		background-image: url('logo_main.png');
+		background-size: 136px auto;
+}
+
+html{
+	font-size: 150%;
+}
