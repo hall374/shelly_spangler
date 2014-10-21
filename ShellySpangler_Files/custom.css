@@ -10,6 +10,8 @@
 #main_logo{
 		background-image: url('logo_main.png');
 		background-size: 136px auto;
+		border: 1px solid white;
+		border-radius: 15px;
 }
 
 html{

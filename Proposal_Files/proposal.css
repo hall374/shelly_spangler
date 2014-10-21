@@ -1,0 +1,99 @@
+#container{
+	border-radius: 15px;
+	border: 2px solid black;
+	width: 600px;
+	min-width: 600px;
+	height:  200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+#triforce{
+	background-image: url('triforce.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 20px;
+	width: 300px;
+	height: 169px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	border-radius: 15px
+}
+
+.stand{
+	height: 75px;
+	width: 50px;
+	background-repeat: no-repeat;
+	margin-top: 125px;
+	display: none;
+}
+
+#linkStand{
+	background-image: url('Link_Stand.gif');
+	float: left;
+	background-size: 100%;
+}
+
+#zeldaStand{
+	background-image: url('Zelda_Stand.gif');
+	float: right;
+	background-size: 89%;
+}
+
+.walk{
+	height: 75px;
+	width: 50px;
+	background-repeat: no-repeat;
+	margin-top: 125px;
+	display: none;
+}
+
+#linkWalk{
+	background-image: url('Link_Walk.gif');
+	background-size: 100%;
+	position: absolute;
+	left: 4px;
+}
+
+#zeldaWalk{
+	background-image: url('Zelda_Walk.gif');
+	position: absolute;
+	left: 550px;
+	background-size: 89%;
+}
+
+#heart{
+	background-image: url('heart.png');
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	width: 15px;
+	height: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+#pickUp{
+	background-image: url('pickUp.gif');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 50px;
+	height: 142px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+#outer{
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	min-width: 601px;
+	heigh: auto;
+}
