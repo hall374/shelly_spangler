@@ -6,9 +6,61 @@
 <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="Proposal_Files/proposal.js"></script>
-<body>
-	<div id="outer">
-		<div id="triforce"></div>
+<body id="htmlBody">
+	<div id="textContainer">
+		<div id="page1Text">
+			<div id="line0" class="line page1">
+				Long ago, in the kingdom of Logan surrounded by coal mines and rednecks,
+			</div>
+			<div id="line1" class="line page1">
+				legends told of an omnipotent and omniscient power which resided in a young programmer named Joe.
+			</div>
+			<div id="line2" class="line page1">
+				This power, which resided within Joe’s heart,
+			</div>
+			<div id="line3" class="line page1">
+				would grant the deepest desires in the heart and mind of the person touching it.
+			</div>
+			<div id="line4" class="line page1">
+				Many people aggressively sought to take this power, 
+			</div>
+			<div id="line5" class="line page1">
+				but no one ever returned...
+			</div>
+		</div>
+		<div id="page2Text">
+			<div id="line6" class="line">
+				One day a former acquaintance of the programmer contacted him.
+			</div>
+			<div id="line7" class="line">
+				It seemed that Princess Shelly, exhausted from the seemingly endless line of moronic assholes,
+			</div>
+			<div id="line8" class="line">
+				was seeking a suitor with a brain. 
+			</div>
+			<div id="line9" class="line">
+				After vanquishing the enemies within the Kingdom of Logan,
+			</div>
+			<div id="line10" class="line">
+				Joe traveled to meet up with the princess in the far off kingdom town of Cross Lanes.
+			</div>
+			<div id="line11" class="line">
+				From there the two fought through the dilapidated kingdoms of Huntington and Gallipolis
+			</div>
+			<div id="line12" class="line">
+				and arrived in the golden land of Columbus. 
+			</div>
+			<div id="line13" class="line">
+				It was here that Joe decided to finally share his power…
+			</div>
+		</div>
+	</div>
+	<div id="outer" class="zelda">
+		<div id="triforceContainer">
+			<div id="triforce">
+				<div id="messageDisplay"></div>
+			</div>
+		</div>
 		<div id="container">
 			<div id="linkStand" class="stand">
 			</div>
@@ -18,14 +70,20 @@
 			</div>
 			<div id="zeldaWalk" class="walk">
 			</div>
-			<div id="heart"></div>
+			<div id="heart" class="heartNormal">
+				<div id="heartText">Yes</div>
+			</div>
 			<div id="pickUp"></div>
+			<div id="carry"></div>
+			<div id="outro"></div>
 		</div>
 	</div>
-	<audio loop id="rescue" src="Proposal_Files/rescue.mp3" preload="auto"></audio>
+	<audio loop id="believe" src="Proposal_Files/believing.mp3" preload="auto" volume="0"></audio>
+	<audio loop id="ffTheme" src="Proposal_Files/ffTheme.mp3" preload="auto"></audio>
 	<audio id="fanfare" src="Proposal_Files/fanfare.wav" preload="auto"></audio>
+	<audio id="anyway" src="Proposal_Files/anyway.mp3" preload="auto"></audio>
 </body>
 <script type="text/javascript">
-	
+	document.getElementById('ffTheme').play();
 </script>
 </html>
